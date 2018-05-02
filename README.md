@@ -2,6 +2,7 @@
 
 > A Vue.js project
 
+<img src="http://tomplabs.com/can/vuejs.jpg">
 ## Build Setup
 
 ``` bash
