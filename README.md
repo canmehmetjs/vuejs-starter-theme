@@ -1,4 +1,4 @@
-# inplayer-portal
+# Vuejs Starter Template - Webpack, Axios and V-Router with some components included too.
 
 > A Vue.js project
 
