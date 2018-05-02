@@ -2,7 +2,6 @@
  
     <header class="text-center">
         {{msg}}
-        {{ $t("message.hello") }}
     </header>
 
 </template>
