@@ -1,0 +1,13 @@
+{
+	"components": {
+		"button": [
+			{ "submit": "Submit" },
+			{ "signin": "Signin" },
+			{ "signup": "Signup" },
+			{ "signout": "Sign Out" },
+			{ "reset": "Reset" },
+			{ "send_message": "Nachricht senden" }
+		]
+	}
+	
+}

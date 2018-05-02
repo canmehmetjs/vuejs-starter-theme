@@ -1,0 +1,60 @@
+section-how-to-spend Props
+--------------------
+blockImageUrl
+topTitle
+bigTitle
+description
+showFeatures
+showButton
+
+as Slot you can use button 
+----
+<div class="loycha_btn inline-buttons">
+           <a class="btn-big border-outline-grey">More details </a>
+</div>
+
+
+
+
+section-problems.vue Props
+----------------------
+showIcons
+showProblems
+showSolutions
+
+
+
+section-title props
+------------------------
+titleAlign
+topTitle
+bigTitle
+description
+showButton
+buttonText
+buttonAnchor
+
+
+
+headerContent-v1.vue
+--------------------------
+bigTitle
+showDescription
+description
+showButtons
+showSocials
+showRightPart
+rightModuleType = "subscribe,"
+
+Slot to be used
+---------
+<div class="loycha_btn inline-buttons">
+        <a class="btn-big bg--primary"> What is loycha? </a>
+        <a class="btn-big border-outline-grey">
+            <svg width="12px" height="15px" viewBox="0 0 12 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path d="M0,1.74799854 L0,11.2572578 C0,12.0856583 0.7908255,12.9132703 1.58858581,12.9931667 C1.63456105,12.9978975 1.71238506,13 1.75810346,13 C2.35809318,13 2.88693687,12.622857 3.29840242,12.3200914 C3.370319,12.2675279 3.44711563,12.2165413 3.51286793,12.1713367 C4.09256691,11.7702774 4.66841321,11.3424106 5.22140032,10.9284732 C5.69913186,10.5713044 6.1950994,10.2015203 6.68695742,9.85486414 C7.14337083,9.53291283 7.59695896,9.20439107 8.04900601,8.87613214 L8.53906611,8.52080301 C9.32269995,7.97414281 10,7.50185994 10,6.50183972 C10,5.46449943 9.1811784,4.91678797 8.53906611,4.48786997 C8.44274927,4.41796054 8.34412082,4.34857674 8.24549237,4.27919295 C8.13042585,4.19824519 8.01510248,4.11729743 7.9031181,4.03503558 C6.91580624,3.3088711 5.94852828,2.60005256 4.96583963,1.91015688 C4.82971182,1.81449135 4.69255663,1.71698609 4.55463091,1.6189552 C4.19530487,1.36323387 3.82339344,1.09883956 3.45327991,0.855733463 C3.36620948,0.798439269 3.27348847,0.725376031 3.17511686,0.64863335 C2.80474649,0.359534207 2.34370987,0 1.78507217,0 C1.56136025,0 1.28216983,0.0591339156 1.08260133,0.17503639 C0.612831972,0.448366489 0,1.02419942 0,1.74799854 Z"
+                    id="Path"></path>
+            </svg>
+            Overview
+        </a>
+</div>
